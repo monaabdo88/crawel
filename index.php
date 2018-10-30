@@ -1,7 +1,6 @@
 <title>Php Crawel</title>
 <?php
-error_reporting(E_ALL);
-/*echo'<h2>First Step (A) </h2>';
+echo'<h2>First Step (A) </h2>';
 //step a in first link
 $htmlA = file_get_contents('https://www.homegate.ch/mieten/immobilien/kanton-zuerich/trefferliste?ep=1');
 $domA = new DOMDocument;
@@ -84,7 +83,7 @@ foreach ($linksB as $link){
             }
         }
     
-}*/
+}
 echo'<h2>Advanced Task </h2>';
 $url = 'https://www.newhome.ch/de/kaufen/suchen/haus_wohnung/kanton_zuerich/liste.aspx?p=1';
 
